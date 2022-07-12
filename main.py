@@ -33,11 +33,11 @@ WHITE = (255, 255, 255)
 FPS = 60
 
 # Thats our sensitivity my boy or as we call it here our spaceshit VELOCITY
-VEL = 5
+VEL = 6
 
 #BULLETS RATATATATATATATATATAAA
 
-BULLET_VEL = 7
+BULLET_VEL = 9
 MAX_BULLETS = 3
 
 YELLOW_HIT = pygame.USEREVENT + 1
