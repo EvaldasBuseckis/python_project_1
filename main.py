@@ -21,7 +21,7 @@ my_color = (225, 180, 80)
 border_color = (0, 0, 0)
 RED = (255, 0, 0)
 YELLOW = (255, 255, 0)
-WHITE = (0, 0, 0)
+WHITE = (255, 255, 255)
 
 # Shitty old school monitors bby
 FPS = 60
@@ -111,7 +111,7 @@ def handle_bullets(yellow_bullets, red_bullets, yellow, red):
 def draw_winner(text):
     draw_text = WINNER_FONT.render(text, 1, WHITE)
     WIN.blit(draw_text, (WIDTH/2 - draw_text.get_width() / 2, HEIGHT/2 - draw_text.get_height()/2))
-    pygame.display.update
+    pygame.display.update()
     pygame.time.delay(7000)
 
 
